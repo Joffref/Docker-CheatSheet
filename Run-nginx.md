@@ -9,3 +9,8 @@ In this basic usage we can see some options:
 - `--name` : name of your container
 - `-p` attachs a port from host to the container (`# -p host_port:container_port`) 
 - `nginx:latest` pulls from hub the latest version fo nginx
+
+If you want to see the config of your nginx container :
+```bash
+docker inspect web
+```
