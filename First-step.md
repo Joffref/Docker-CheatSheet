@@ -28,3 +28,8 @@ Connect to container
 ``` bash
 docker exec -ti fstuto sh 
 ```
+
+Stop container :
+```bash
+docker stop fstuto
+```
